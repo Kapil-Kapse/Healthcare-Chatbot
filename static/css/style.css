@@ -22,7 +22,7 @@ body {
 /* CHATBOX
 =============== */
 .chatbox {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     right: 10px;
 }
@@ -63,7 +63,7 @@ body {
 
 /* HEADER */
 .chatbox__header {
-    position: sticky;
+    position: absolute;
     top: 0;
     background: orange;
 }
@@ -92,7 +92,7 @@ body {
 
 /* FOOTER */
 .chatbox__footer {
-    position: sticky;
+    position: relative;
     bottom: 0;
 }
 
