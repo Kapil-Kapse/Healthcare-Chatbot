@@ -222,6 +222,10 @@ img {
   width: 360px;
 }
 
+.home__social-icon {
+  font-size: x-large;
+}
+
 /*BUTTONS*/
 .button {
   display: inline-block;
