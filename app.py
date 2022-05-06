@@ -1,6 +1,5 @@
 from email import message
 from flask import Flask, render_template, request, jsonify
-
 from chat import get_response
 
 app = Flask(__name__)
